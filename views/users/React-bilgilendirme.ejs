@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/react-bilgilendirme.css">
+    <title>MiracAkademi</title>
+</head>
+
+<body>
+    <%- include('../partial/nav') %>
+        <div class="article-container">
+            <header class="article-header">
+                <h1 class="article-title">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
+                        alt="React Logo" class="react-logo" />
+                    React Nedir?
+                </h1>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <i class="far fa-calendar"></i>
+                        <span>11 Ekim 2025</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="far fa-clock"></i>
+                        <span>5 dk okuma</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="far fa-folder"></i>
+                        <span>Frontend Geliştirme</span>
+                    </div>
+                </div>
+            </header>
+            <section class="react-bilgi">
+                <div class="article-content">
+                    <p class="intro-text">
+                        <strong>React</strong>, kullanıcı arayüzleri oluşturmak için geliştirilmiş bir JavaScript
+                        kütüphanesidir. Facebook tarafından geliştirilmiş olan React, bileşen tabanlı yapısı sayesinde
+                        uygulamaları daha yönetilebilir ve tekrar kullanılabilir hale getirir.
+                    </p>
+
+                    <p class="article-text">
+                        React, veri değişikliklerinde yalnızca ilgili bileşeni güncelleyerek performansı artırır ve
+                        hızlı
+                        bir kullanıcı deneyimi sağlar. Açık kaynak kodlu olan React, geniş bir topluluk tarafından
+                        desteklenmekte ve sürekli olarak geliştirilmektedir.
+                    </p>
+
+                    <h2 class="section-title">React'in Temel Özellikleri</h2>
+
+                    <ul class="features-list">
+                        <li>
+                            <span class="feature-title">Bileşen Tabanlı Yapı</span>
+                            Her UI parçası bağımsız bir bileşen olarak oluşturulur ve tekrar kullanılabilir. Bu sayede
+                            kod
+                            tekrarı önlenir ve uygulama bakımı kolaylaşır.
+                        </li>
+                        <li>
+                            <span class="feature-title">Virtual DOM</span>
+                            Gereksiz güncellemeleri önleyerek hızlı ve verimli render sağlar. Virtual DOM, gerçek DOM'un
+                            hafif bir kopyasıdır ve değişiklikler önce burada uygulanır.
+                        </li>
+                        <li>
+                            <span class="feature-title">JSX</span>
+                            JavaScript içinde HTML benzeri bir yapı kullanarak bileşenleri tanımlamayı kolaylaştırır.
+                            JSX,
+                            React bileşenlerinin daha okunabilir olmasını sağlar.
+                        </li>
+                        <li>
+                            <span class="feature-title">Tek Yönlü Veri Akışı</span>
+                            Veri, parent bileşenden child bileşene doğru tek yönlü akar. Bu durum uygulamanın durum
+                            yönetimini daha tahmin edilebilir hale getirir.
+                        </li>
+                        <li>
+                            <span class="feature-title">Hooks</span>
+                            Fonksiyonel bileşenlerde state ve yaşam döngüsü yönetimini sağlar. Hooks sayesinde sınıf
+                            bileşenlerine gerek kalmadan state yönetimi yapılabilir.
+                        </li>
+                    </ul>
+
+                    <div class="highlight-box">
+                        <h3 class="highlight-title">React ile Neler Yapılabilir?</h3>
+                        <p class="article-text">
+                            React, modern web uygulamalarının temel taşlarından biridir. Web siteleri, tek sayfa
+                            uygulamalar
+                            (SPA),
+                            mobil uygulamalar (React Native) ve masaüstü uygulamalar (Electron) geliştirmek için
+                            kullanılabilir.
+                            Geniş ekosistemi sayesinde form yönetimi, veri çekme, routing gibi pek çok ihtiyaç kolayca
+                            karşılanabilir.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span class="tech-tag">Web Uygulamaları</span>
+                            <span class="tech-tag">SPA</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Masaüstü Uygulamalar</span>
+                            <span class="tech-tag">Progressive Web Apps</span>
+                        </div>
+                    </div>
+
+                    <p class="article-text">
+                        React öğrenmek isteyen geliştiriciler için zengin bir dokümantasyon ve topluluk desteği
+                        bulunmaktadır.
+                        Resmi React dokümantasyonu, başlangıç seviyesinden ileri seviyeye kadar kapsamlı rehberler
+                        sunmaktadır.
+                    </p>
+                </div>
+            </section>
+            <footer class="article-footer">
+                <p>React hakkında daha fazla bilgi için aşağıdaki kaynakları ziyaret edebilirsiniz.</p>
+                <div class="footer-links">
+                    <a href="https://react.dev" class="footer-link" target="_blank">
+                        Resmi React Dokümantasyonu
+                    </a>
+                    <a href="https://github.com/facebook/react" class="footer-link" target="_blank">
+                        React GitHub Repository
+                    </a>
+                    <a href="https://stackoverflow.com/questions/tagged/reactjs" class="footer-link" target="_blank">
+                        Stack Overflow
+                    </a>
+                </div>
+            </footer>
+        </div>
+
+        <%- include('../partial/footer') %>
+</body>
+
+</html>

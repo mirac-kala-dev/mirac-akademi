@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/nodejs.css">
+    <title>MiracAkademi</title>
+</head>
+
+<body>
+     <%- include('../partial/nav') %>
+    <header class="article-header">
+        <h1 class="article-title">
+            <img src="/static/images/node1.webp" alt="Node.js Logo" class="nodejs-logo" />
+            Node.js Nedir?
+        </h1>
+        <div class="article-meta">
+            <div class="meta-item">
+                <i class="far fa-calendar"></i>
+                <span>11 Ekim 2025</span>
+            </div>
+            <div class="meta-item">
+                <i class="far fa-clock"></i>
+                <span>6 dk okuma</span>
+            </div>
+            <div class="meta-item">
+                <i class="far fa-folder"></i>
+                <span>Backend Geliştirme</span>
+            </div>
+        </div>
+    </header>
+    <section class="nodejs-bilgi">
+        <div class="article-content">
+            <p class="intro-text">
+                <strong>Node.js</strong>, sunucu tarafında çalışan, açık kaynaklı bir JavaScript çalıştırma ortamıdır.
+                V8 JavaScript motoru üzerine inşa edilmiş olan Node.js, non-blocking I/O ve event-driven mimarisi
+                sayesinde yüksek performanslı ve ölçeklenebilir ağ uygulamaları geliştirmeye olanak tanır.
+            </p>
+
+            <p class="article-text">
+                Node.js, geleneksel sunucu tarafı teknolojilerinden farklı olarak, tek thread'li event loop modeli
+                kullanır. Bu sayede binlerce eşzamanlı bağlantıyı verimli bir şekilde yönetebilir.
+                2009 yılında Ryan Dahl tarafından oluşturulan Node.js, günümüzde modern web geliştirmenin
+                temel taşlarından biri haline gelmiştir.
+            </p>
+
+            <h2 class="section-title">Node.js'in Temel Özellikleri</h2>
+
+            <ul class="features-list">
+                <li>
+                    <span class="feature-title">Asenkron ve Non-Blocking I/O</span>
+                    Node.js, I/O işlemlerini non-blocking bir şekilde gerçekleştirir. Bu sayede sunucu,
+                    bir işlem tamamlanırken diğer isteklere cevap verebilir, bu da yüksek verimlilik sağlar.
+                </li>
+                <li>
+                    <span class="feature-title">Event-Driven Mimari</span>
+                    Event emitter'lar ve callback'ler üzerine kurulu bu mimari, Node.js'in temelini oluşturur.
+                    Bu yaklaşım, gerçek zamanlı uygulamalar geliştirmek için idealdir.
+                </li>
+                <li>
+                    <span class="feature-title">NPM (Node Package Manager)</span>
+                    Dünyanın en büyük yazılım kütüphanesi olan NPM, Node.js ile birlikte gelir.
+                    Milyonlarca açık kaynaklı paket, geliştiricilerin kullanımına sunulmuştur.
+                </li>
+                <li>
+                    <span class="feature-title">Tekrar Kullanılabilir Kod</span>
+                    Node.js, hem istemci hem de sunucu tarafında JavaScript kullanımına olanak tanıyarak
+                    kodun tekrar kullanılabilirliğini artırır. Bu durum full-stack geliştirmeyi kolaylaştırır.
+                </li>
+                <li>
+                    <span class="feature-title">Hızlı Performans</span>
+                    Google'ın V8 JavaScript motoru üzerine inşa edilen Node.js, JavaScript kodunu
+                    makine koduna derleyerek yüksek performans sağlar.
+                </li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3 class="highlight-title">Node.js ile Neler Yapılabilir?</h3>
+                <p class="article-text">
+                    Node.js, çok çeşitli uygulama türleri geliştirmek için kullanılabilir. Web sunucuları,
+                    API'lar, gerçek zamanlı uygulamalar, mikroservisler ve komut satırı araçları bunlardan
+                    sadece birkaçıdır. Büyük ölçekli şirketler tarafından da yoğun şekilde kullanılan Node.js,
+                    modern web ekosisteminin vazgeçilmez bir parçası haline gelmiştir.
+                </p>
+
+                <div class="tech-tags">
+                    <span class="tech-tag">Web Sunucuları</span>
+                    <span class="tech-tag">API Geliştirme</span>
+                    <span class="tech-tag">Real-time Uygulamalar</span>
+                    <span class="tech-tag">Mikroservisler</span>
+                    <span class="tech-tag">Komut Satırı Araçları</span>
+                </div>
+            </div>
+
+            <p class="article-text">
+                Node.js öğrenmek isteyen geliştiriciler için kapsamlı bir dokümantasyon ve aktif bir topluluk
+                bulunmaktadır. Resmi Node.js web sitesi, başlangıç seviyesinden ileri seviyeye kadar
+                eğitim materyalleri ve rehberler sunmaktadır. Ayrıca, NPM üzerinden erişilebilen binlerce
+                kütüphane ve framework, geliştirme sürecini hızlandırmaktadır.
+            </p>
+        </div>
+            <footer class="article-footer">
+        <p>Node.js hakkında daha fazla bilgi için resmi dokümantasyonu ziyaret edebilirsiniz.</p>
+        <div class="footer-links">
+            <a href="https://nodejs.org" class="footer-link">Node.js Dokümantasyon</a>
+            <a href="https://npmjs.com" class="footer-link">NPM Paketleri</a>
+            <a href="https://github.com/nodejs" class="footer-link">Node.js GitHub</a>
+        </div>
+    </footer>
+    </section>
+    <div>
+  <%- include('../partial/footer') %>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/hakkımızda.css">
+  <style>
+    .footer {
+      margin-top: 200px;
+      background-color: white;
+      color: black;
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+    }
+  </style>
+  <title>MiracAkademi</title>
+</head>
+
+<body>
+  <%- include('../partial/nav') %>
+
+    <section class="iletisim">
+      <div class="iletisim-container">
+        <div class="iletisim-bilgi">
+          <h2>İletişim</h2>
+          <p><strong>MiracAkademi</strong> ekibi olarak sizlere en iyi öğrenme deneyimini sunmak için buradayız.</p>
+          <p><i class="fa-solid fa-location-dot"></i> Elazığ, Türkiye</p>
+          <p><i class="fa-solid fa-phone"></i> +90 555 123 45 67</p>
+          <p><i class="fa-solid fa-clock"></i> Çalışma Saatleri: 09:00 - 18:00</p>
+        </div>
+
+        <div class="iletisim-harita">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.3474040189474!2d39.21833877581706!3d38.67463707175635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4076c06a5a9d6f5f%3A0x58f509edc827f0db!2sElaz%C4%B1%C4%9F!5e0!3m2!1str!2str!4v1697043229174!5m2!1str!2str"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    <%- include('../partial/footer') %>
+
+</body>
+
+</html>
